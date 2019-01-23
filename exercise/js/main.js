@@ -18,7 +18,7 @@ function question1() {
 	$("replaceMe").css("replaceMe", "replaceMe");
 }
 
-$("#button1").click(question1);
+$("#button1").on('click', question1);
 
 /**
  * Question 2:
@@ -30,7 +30,7 @@ $("#button1").click(question1);
 	// 	$("replaceMe").replaceMe("replaceMe");
 	// }
 
-	// $("#button1").click(question2);
+	// $("#button1").on('click', question2);
 
 /**
  * Question 3:
@@ -39,11 +39,11 @@ $("#button1").click(question1);
  * Uncomment the code below and solve the problem
  */
 
-	// function replaceMe(){
+	// function question3(){
 	// 	$("replaceMe").html("replaceMe");
 	// }
 
-	// $("#button1").click(question3);
+	// $("#button1").on('click', question3);
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
