@@ -11,14 +11,14 @@
 /**
  * Question 1:
  * When, button 1 is clicked, select all paragraphs on the page with jQuery, and changed the font color to blue.
- * We've started you off, replace everything with "replaceMe"
+ * We've started you off, ONLY replace everything instance of "replaceMe" with correct code.
  */
- 
-	function question1(){
-		$("replaceMe").css("replaceMe", "replaceMe");
-	}
 
-	$("#button1").click(question1);
+function question1() {
+	$("replaceMe").css("replaceMe", "replaceMe");
+}
+
+$("#button1").click(question1);
 
 /**
  * Question 2:
@@ -34,7 +34,7 @@
 
 /**
  * Question 3:
- * When button 1 is clicked, select the ordered list item that has the class "falseFact". 
+ * When button 1 is clicked, select the ordered list item that has the class "falseFact".
  * Using jQuery change the content to read "True Fact".
  * Uncomment the code below and solve the problem
  */
@@ -49,7 +49,7 @@
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
 
 /**
- * Question 4: 
+ * Question 4:
  * When button 2 is clicked, change the background color of the whole page to "pink"
  */
 
@@ -78,7 +78,7 @@
 
 /**
  * Question 8:
- * Have the following code execute when button 3 is clicked.  
+ * Have the following code execute when button 3 is clicked.
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
 
